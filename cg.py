@@ -156,8 +156,6 @@ GRADE_SCALE = {
 if 'subjects' not in st.session_state:
     st.session_state.subjects = [
         {'id': 1, 'name': 'Mathematics', 'credits': 4, 'grade': 'A'},
-        {'id': 2, 'name': 'Physics', 'credits': 3, 'grade': 'B'},
-        {'id': 3, 'name': 'Computer Science', 'credits': 4, 'grade': 'EX'},
     ]
 if 'next_id' not in st.session_state:
     st.session_state.next_id = 4
