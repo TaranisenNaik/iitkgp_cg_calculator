@@ -189,7 +189,7 @@ def delete_subject(idx):
 
 
 # Top Header
-st.title("🎓 ACGPA Calculator")
+st.title("🎓 CGPA Calculator")
 st.markdown(
     "Add your subjects below to calculate SGPA and predict your next CGPA.")
 st.markdown("---")
