@@ -1,7 +1,7 @@
 import streamlit as st
 
 # --- Configuration & Styling ---
-st.set_page_config(page_title="ACGPA Calculator", page_icon="🎓", layout="wide")
+st.set_page_config(page_title="CGPA Calculator", page_icon="🎓", layout="wide")
 
 # Custom CSS to mimic the React UI's card style and buttons
 st.markdown("""
@@ -310,10 +310,10 @@ with col_sidebar:
         st.markdown("---")
         st.markdown("**Expected New CGPA**")
         st.markdown(f"""
-            <div style="font-size: 2rem; font-weight: bold; color: #1e293b;">
+            <div style="font-size: 2rem; font-weight: bold; color: #ffffff;">
                 {projected_cgpa:.2f}
             </div>
-            <div style="font-size: 0.8rem; color: #64748b;">
+            <div style="font-size: 0.8rem; color: #ffffff;">
                 After adding {total_credits} credits
             </div>
         """, unsafe_allow_html=True)
